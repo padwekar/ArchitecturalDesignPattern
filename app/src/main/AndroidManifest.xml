@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools" package="savi.app.architecturedesignpattern">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme" tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+
+        <!--MVC-->
+        <activity android:name=".mvc.MvcTossActivity">
+
+        </activity>
+
+        <!--MVP-->
+        <activity android:name=".mvp.MvpTossActivity">
+
+        </activity>
+
+
+        <!--MVVM with RX-->
+        <activity android:name=".mvvm_rx.MvvmTossRxActivity">
+
+        </activity>
+
+
+        <!--MVVM with Live Data-->
+        <activity android:name=".mvvm_live_data.MvvmTossActivity">
+
+        </activity>
+
+
+        <!--MVVM with Live Data & Data Binding-->
+        <activity android:name=".mvvm_live_data_binding.MvvmTossBindingActivity">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ArchitectureDesignPattern</string>
+    <string name="title_activity_mvc_toss">MvcTossActivity</string>
+    <string name="toss_a_coin_text">Toss a coin</string>
+    <string name="heads_text">Heads</string>
+    <string name="tails_text">Tails</string>
+
+</resources>
